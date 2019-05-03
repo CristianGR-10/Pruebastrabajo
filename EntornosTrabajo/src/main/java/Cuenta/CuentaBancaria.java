@@ -4,8 +4,8 @@ import Cliente.Cliente;
 
 public class CuentaBancaria {
 
-	private long NumCuenta;
-	private int   saldoDisponible;
+	private String NumCuenta;
+	private String   saldoDisponible;
 	private String nombreBanco;
 	private int IdentificadorBanco;
 
@@ -30,19 +30,19 @@ public class CuentaBancaria {
 
 	}
 
-	public long getNumCuenta() {
+	public String getNumCuenta() {
 		return NumCuenta;
 	}
 
-	public void setNumCuenta(long numCuenta) {
+	public void setNumCuenta(String numCuenta) {
 		NumCuenta = numCuenta;
 	}
 
-	public int getSaldoDisponible() {
+	public String getSaldoDisponible() {
 		return saldoDisponible;
 	}
 
-	public void setSaldoDisponible(int saldoDisponible) {
+	public void setSaldoDisponible(String saldoDisponible) {
 		this.saldoDisponible = saldoDisponible;
 	}
 
